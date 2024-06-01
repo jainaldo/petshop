@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<animais>
+    <animal>
+        <dataNascimento>2024-06-01T10:31:37.472-03:00</dataNascimento>
+        <especie>Cachorro</especie>
+        <genero>Masculino</genero>
+        <nome>Buddy</nome>
+        <raca>Golden Retriever</raca>
+    </animal>
+    <animal>
+        <dataNascimento>2024-06-01T10:31:37.472-03:00</dataNascimento>
+        <especie>Gato</especie>
+        <genero>Feminino</genero>
+        <nome>Mittens</nome>
+        <raca>Siamês</raca>
+    </animal>
+</animais>

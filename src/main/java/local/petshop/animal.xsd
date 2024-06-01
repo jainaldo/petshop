@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.com/animais"
+           xmlns="http://www.example.com/animais"
+           elementFormDefault="qualified">
+
+    <xs:element name="animais">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="animal" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="animal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nome" type="xs:string"/>
+                <xs:element name="especie" type="xs:string"/>
+                <xs:element name="raca" type="xs:string"/>
+                <xs:element name="genero" type="xs:string"/>
+                <xs:element name="dataNascimento" type="xs:date"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
